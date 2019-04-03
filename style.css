@@ -37,38 +37,18 @@
 }
   }
 
-.shadow {
-
-    /* Hidden by default */
-    position: fixed;
-    /* Stay in place */
-    z-index: -1;
-    /* Sit on top */
-    padding-top: 250px;
-    /* Location of the box */
-    left: 0;
-    top: 0;
-    width: 100%;
-    /* Full width */
-    height: 100%;
-    /* Full height */
-    overflow: auto;
-}
-.shadow-inner {
-  background-image: radial-gradient( 50% 20% at top, Black,  #23272A00);
-  height: 100px;
-}
 .content-holder {
   
   display: flex;
   justify-content: center;
-  
+  background-image: radial-gradient( 1000px 20px at top, Black,  #23272A00);
   
 }
 .content {
   text-align: justify;
   width: 60%;
   margin-top: 20px;
+  
   
 }
 @media screen and (max-width: 1200px) {
