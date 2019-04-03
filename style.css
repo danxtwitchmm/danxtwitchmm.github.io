@@ -1,0 +1,216 @@
+@font-face {
+    font-family: 'Covenant';
+    src: url(data:application/x-font-woff;charset=utf-8;base64,) format('woff');
+    font-weight: normal;
+    font-style: normal;
+  }
+/*Oldal összetétel*/
+.logo {
+  background-image: radial-gradient(500% 100% at bottom,#23272A00 0%,black 100%);
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.logotext {
+  color: white;
+  font-size: 38px;
+  -webkit-text-stroke: 1px #4b367c;
+  margin: 20px 0px 20px 0px;
+}
+@media screen and (max-width: 400px) {
+  .logotext {
+    color: white;
+    font-size: 20px;
+    -webkit-text-stroke: 1px #4b367c;
+  }
+}
+.responsive {
+  height: 200px;
+}
+@media screen and (max-width: 500px) {
+.responsive {
+  
+  color: red;
+  height: auto;
+  width: 100%;
+  
+}
+  }
+
+.shadow {
+
+    /* Hidden by default */
+    position: fixed;
+    /* Stay in place */
+    z-index: -1;
+    /* Sit on top */
+    padding-top: 250px;
+    /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%;
+    /* Full width */
+    height: 100%;
+    /* Full height */
+    overflow: auto;
+}
+.shadow-inner {
+  background-image: radial-gradient( 50% 20% at top, Black,  #23272A00);
+  height: 100px;
+}
+.content-holder {
+  
+  display: flex;
+  justify-content: center;
+  
+  
+}
+.content {
+  text-align: justify;
+  width: 60%;
+  margin-top: 20px;
+  
+}
+@media screen and (max-width: 1200px) {
+  .content {
+    text-align: justify;
+    width: 100%;
+    margin: 20px 20px 0px 20px;
+  }
+}
+
+.menu {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  
+  flex-wrap: wrap;
+  background-color: #4b367c;
+  background-image: radial-gradient(500% 100% at bottom,#23272A00 0%,#0e0c13 100%);
+}
+a {
+  color: white;
+}
+.buttons {
+  display: flex;
+  background-color: #4b367c;
+  text-align: center;
+  margin: 0px 5px 0px 5px;
+  padding: 10px 25px 10px 25px;
+  border: 1px solid #0e0c13;
+  background-image: radial-gradient(500% 100% at top,#23272A00 0%,#0e0c13 100%);
+  
+
+}
+@media screen and (max-width: 800px) {
+  .buttons {
+    margin: 10px 5px 0px 5px;
+  }
+}
+
+@media screen and (min-height: 800px) {
+  .bottom {
+    text-align: center;
+    position: fixed;
+
+   bottom: 0;
+   width: 100%;
+  }
+}
+
+.bottom {
+  text-align: center;
+  margin-top: 100px;
+
+}
+
+
+
+.bottom img {
+  margin: 10px 0px 10px 0px;
+}
+
+body {
+
+  margin: 0px 0px 0px 0px;
+  
+}
+  /* The Modal (background) */
+
+  .modal {
+    display: none;
+    /* Hidden by default */
+    position: fixed;
+    /* Stay in place */
+    z-index: 1;
+    /* Sit on top */
+    padding-top: 100px;
+    /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%;
+    /* Full width */
+    height: 100%;
+    /* Full height */
+    overflow: auto;
+    /* Enable scroll if needed */
+    background-color: rgb(0, 0, 0);
+    /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.4);
+    /* Black w/ opacity */
+  }
+
+  /* Modal Content */
+
+  .modal-content {
+    background-color: #17141f;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+  }
+
+  /* The Close Button */
+
+  .close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+
+  .close:hover,
+  .close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+  .cookie {
+    display: none;
+    /* Hidden by default */
+    position: fixed;
+    /* Stay in place */
+    z-index: 1;
+    /* Sit on top */
+    /* Location of the box */
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    /* Full width */
+    /* Full height */
+    overflow: auto;
+    /* Enable scroll if needed */
+    background-color: rgb(0, 0, 0);
+    /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.4);
+    /* Black w/ opacity */
+  }
+
+  /* Modal Content */
+
+  .modal-cookie {
+    background-color: #2e2b35;
+    margin: auto;
+    padding: 20px;
+  }
