@@ -15,8 +15,15 @@
   color: white;
   font-size: 38px;
   -webkit-text-stroke: 1px #4b367c;
-  margin: 20px 0px 10px 0px;
+  margin: 20px 0px 20px 0px;
 }
+h1 {
+  color: white;
+  font-size: 38px;
+  -webkit-text-stroke: 1px #4b367c;
+  margin: 20px 0px 3px 0px;
+}
+
 @media screen and (max-width: 400px) {
   .logotext {
     color: white;
