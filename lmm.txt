@@ -1,3 +1,0 @@
-﻿<div class="logotext">Fejlesztés alatt!</div>
-        Egyébb átalakítások szükségesek, hogy a lehető legegyszerűbben beállítható/testreszabható legyen mindenkinek. :)
-      
