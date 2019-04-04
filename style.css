@@ -17,9 +17,9 @@
   -webkit-text-stroke: 1px #4b367c;
   margin: 20px 0px 20px 0px;
 }
-h1 {
+.htext {
   color: white;
-  font-size: 38px;
+  font-size: px;
   -webkit-text-stroke: 1px #4b367c;
   margin: 20px 0px 3px 0px;
 }
@@ -30,6 +30,11 @@ h1 {
     font-size: 20px;
     -webkit-text-stroke: 1px #4b367c;
     
+  }
+  .htext {
+
+    font-size: 20px;
+
   }
 }
 .responsive {
