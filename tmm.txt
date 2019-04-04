@@ -1,0 +1,23 @@
+<div class="logotext">Elõtörténet:</div>
+      A mobil menetrend megszületésének elõfutára az a gondolat volt, hogy milyen jó lenne ha kényelmesen tudnánk értesülni mi
+      Ninjonok a TheVR streamjeirõl. Ez egy Google Script alapú Discord kiértesítõ megírására ösztökélt, amely a webhook-ot
+      felhasználva kiértesített, ha változott a menetrend a Twitch események oldalán. Ekkor kezdtem el JavaScript-ben programozni
+      elõször. A következõ gondolatom egy mobilon könnyen áttekinthetõ menetrend elérhetõsége volt, mivel a kiértesítõ nem
+      volt teljesen átlátható, illetve a Twitch a mai napig nem rendelkezik mobilon is megtekinthetõ Események oldallal.
+      Így a kiértesítõ Script egy átalakítása volt az a 2017 Október 17.-én megszületett Google Script-es WebApp amelyre
+      TheVRJani és TheVRPisti is felfigyelt és bemutattak. A késõbbiekben nagyon sokáig ezt a verziót foltozgattam és adtam
+      hozzá az elsõ új funkciót amely az élõ adást társította össze a menetrendben található eseménnyel. A Google által használt
+      felsõ banner csík miatt az elsõ nagy átalakítás 2018 Márciusában történt meg. Ekkor került elhelyezésre a TheVR weboldalán
+      egy HTML fájl, amely a Google Script által szolgáltatott elõreformázott menetrendet kérte le és jelenítette meg javaScript
+      segítségével. Ezzel így lehetõség volt a banner csík nélküli megjelenítésre és korlátozott mértékben a CSS és Cookie
+      adta elõnyök kihasználása. Ekkor jelent meg elõször a sötét és a világos témára állítás lehetõsége Narugykivi ötlete
+      nyomán, valamint ekkor cserélõdött le az "unalmas" Times New Roman betûtípus és lett javítva egy megjelenítési hiba
+      Laasli segítségével. A mobil menetrend 2018 Július 11.-én egy hatalmas átalakítás keretében végkép maga mögött hagyta
+      a Google Scriptes gyökereket és a weboldal felépítése immár közvetlenül a Twitch szervereirõl lekért adatok alapján
+      épült fel a weboldal javaScript kódjának segítségével. A kialakítás lehetõvé tette új funkciók hozzáadását és egy sor
+      új kihívást is magával hozott. Ekkor Nessaj-nak is elkészítettem és még ez évben átalakítottam, hogy egyszerûen lehessen
+      frissíteni a scriptet mindkét oldalnál. Ezután 2019-ben bLYYY megkért, hogy õ számára is készítsem el. Így jött az
+      ötlet, hogy mindenki számára elérhetõvé teszek egy olyan változatot amelyet egyszerûen testretud szabni és feltölteni
+      saját webszerverre.
+      <br> A menetrend ezen verziója a mai napig is folyamatosan formálódik hibajavításokkal és új funckiókkal. A Google Script
+      már csak az újdonságok jelzésére vannak igénybe véve. 
