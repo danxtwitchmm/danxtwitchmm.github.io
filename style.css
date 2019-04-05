@@ -86,7 +86,12 @@
   flex-wrap: wrap;
 }
 
-.twocollum_inner {
+.twocollum_innerr {
+  display: flex;
+  justify-content: center;
+}
+
+.twocollum_innerl {
   display: flex;
   width: 400px;
 }
