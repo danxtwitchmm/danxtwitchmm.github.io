@@ -61,14 +61,8 @@
   text-align: justify;
   width: 60%;
   margin-top: 20px;
-  display: flex;
-
-  justify-content: center;
-  
-  flex-wrap: wrap;
-  
-  
 }
+
 @media screen and (max-width: 1200px) {
   .content {
     text-align: justify;
@@ -85,6 +79,16 @@
   flex-wrap: wrap;
   background-color: #4b367c;
   background-image: radial-gradient(500% 100% at bottom,#23272A00 0%,#0e0c13 100%);
+}
+
+.twocollum {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.twocollum_inner {
+  display: flex;
 }
 
 a {
