@@ -1,5 +1,5 @@
 function HttpGet(url) {
-
+    document.getElementsByClassName("content")[0].innerHTML= "<center>Töltődik...</center>";
     var xhttp = new XMLHttpRequest();
     xhttp.onreadystatechange = function () {
         if (this.readyState == 4 && this.status == 200) {
