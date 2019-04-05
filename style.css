@@ -5,8 +5,12 @@
     font-style: normal;
   }
 /*Oldal összetétel*/
+.logobackground {
+  background-image: url("pattern.png");
+  background-repeat: repeat;
+}
 .logo {
-  background-image: radial-gradient(500% 100% at bottom,#23272A00 0%,black 100%);
+  background-image: radial-gradient(500% 100% at top,#23272A00 0%,#0e0c13 100%);
   text-align: center;
   margin-bottom: 10px;
 }
@@ -121,6 +125,7 @@ a {
   margin: 0px 5px 0px 5px;
   padding: 10px 25px 10px 25px;
   border: 1px solid #0e0c13;
+  border-radius: 5px 5px 0px 0px;
   background-image: radial-gradient(500% 100% at top,#23272A00 0%,#0e0c13 100%);
   
 
@@ -144,7 +149,9 @@ a {
 }
 
 body {
-
+  font-family:'Roboto', sans-serif; 
+  background: #0e0c13; height:100%; 
+  color: #c3c1c8;
   margin: 0px 0px 0px 0px;
   
 }
