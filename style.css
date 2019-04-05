@@ -89,7 +89,7 @@
 .twocollum_innerr {
   display: flex;
   justify-content: center;
-  
+  width: 100%;
 }
 
 .twocollum_innerl {
