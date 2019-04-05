@@ -89,6 +89,7 @@
 
 .twocollum_inner {
   display: flex;
+  width: 50%;
 }
 
 a {
