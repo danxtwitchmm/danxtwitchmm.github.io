@@ -89,12 +89,26 @@
 .twocollum_innerr {
   display: flex;
   justify-content: center;
-  width: auto;
+  
 }
 
 .twocollum_innerl {
   display: flex;
-  width: 400px;
+  
+}
+
+@media screen and (min-width: 1200px) {
+  .twocollum_innerr {
+    display: flex;
+    justify-content: center;
+    width: 50%;
+  }
+  
+  .twocollum_innerl {
+    display: flex;
+    width: 50%;
+  }
+
 }
 
 a {
