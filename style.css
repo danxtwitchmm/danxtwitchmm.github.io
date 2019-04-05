@@ -97,7 +97,7 @@
   
 }
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 500px) {
   .twocollum_innerr {
     display: flex;
     justify-content: center;
