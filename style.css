@@ -127,6 +127,13 @@
   justify-content: center;
   
 }
+.discord_serverinfo {
+  display: block;
+}
+.statusgreen {
+  background-color: green;
+  border-radius: 50%;
+}
 
 a {
   color: white;
