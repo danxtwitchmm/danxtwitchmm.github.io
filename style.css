@@ -120,11 +120,12 @@
   border-radius: 5px;
   border: 1px solid grey;
   width: fit-content;
+  justify-content: center;
 }
 .discord_avatar {
   display: flex;
   justify-content: center;
-  margin: 10px;
+  margin: 10px 10px 0px 10px;
 }
 .discord_serverinfo {
   display: flex;
@@ -142,6 +143,7 @@ margin: 10px;
   width: 100px;
   background-color: darkolivegreen;
   vertical-align: middle;
+  padding-top: 9%;
 }
 .statusgreen {
   background-color: green;
