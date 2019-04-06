@@ -121,6 +121,7 @@
   border: 1px solid grey;
   width: fit-content;
   justify-content: center;
+  margin-top: 20px;
 }
 .discord_avatar {
   display: flex;
