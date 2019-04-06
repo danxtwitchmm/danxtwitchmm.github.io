@@ -11,5 +11,6 @@ function HttpGet(url) {
     };
     xhttp.open("GET", url, true);
     xhttp.send();
+    //https://discordapp.com/api/v6/invite/4YKn62P?with_counts=true    <---meghívó kódból a szerver létszám és online tagok. https://discord.gg/4YKn62P
 }
 
