@@ -125,7 +125,7 @@
 .discord_avatar {
   display: flex;
   justify-content: center;
-  margin: 10px 10px 0px 10px;
+  margin: 10px;
 }
 .discord_serverinfo {
   display: flex;
@@ -140,10 +140,10 @@ margin: 10px;
   margin-right: 10px;
 }
 .discord_joinbutton {
-  width: 100px;
+  width: 100%;
   background-color: darkolivegreen;
   vertical-align: middle;
-  padding-top: 9%;
+  font-weight: bold;
 }
 .statusgreen {
   background-color: green;
