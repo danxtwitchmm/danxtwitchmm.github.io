@@ -124,14 +124,16 @@
 .discord_avatar {
   display: flex;
   justify-content: center;
+  margin: 10px;
 }
 .discord_serverinfo {
   display: flex;
   justify-content: center;
+  display: block;
   
 }
-.discord_serverinfo {
-  display: block;
+.discord_status {
+margin: 10px;
 }
 .statusgreen {
   background-color: green;
@@ -146,6 +148,9 @@
   border-radius: 50%;
   display: inline-block;
   height: 10px;
+}
+.discord_servername {
+ margin: 20px;
 }
 
 a {
