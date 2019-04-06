@@ -25,7 +25,7 @@ function DiscordInfo(url) {
             data = JSON.parse(data);
             
             document.getElementsByClassName("statustext_online")[0].innerHTML = data.approximate_presence_count;
-            document.getElementsByClassName("statustext_offline")[0].innerHTML = data.approximate_member_count;
+            document.getElementsByClassName("statustext_all")[0].innerHTML = data.approximate_member_count;
         }
     };
     xhttp.open("GET", url, true);
