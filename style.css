@@ -135,6 +135,14 @@
 .discord_status {
 margin: 10px;
 }
+.statustext_online {
+  margin-right: 10px;
+}
+.discord_joinbutton {
+  width: 100px;
+  background-color: darkolivegreen;
+  vertical-align: middle;
+}
 .statusgreen {
   background-color: green;
   width: 10px;
