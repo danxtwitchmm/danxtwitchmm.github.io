@@ -5,44 +5,53 @@
   <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
   <link rel="shortcut icon" type="image/png" href="icon.png">
   <link rel="stylesheet" href="style.css">
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-137857191-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'UA-137857191-1');
+  </script>
   <script id="main_js" type="text/javascript" src="javascript.js"></script>
   <title>Twitch MobilMenetrend</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta charset="utf-8">
-<script>HttpGet('tmm.html');</script>
+  <script>HttpGet('tmm.html');</script>
 
 </head>
 
 <body link="grey" vlink="grey">
-<div class="logobackground">
-  <div class="logo">
+  <div class="logobackground">
+    <div class="logo">
       <img class="responsive" src="logo2.png">
 
+    </div>
   </div>
-</div>
   <div class="menu">
     <div class="buttons">
-      <a style="cursor: pointer; text-decoration: underline;" onclick="HttpGet('tmm.html')";>TwitchMobilMenetrendről</a>
-     </div>
-    <div class="buttons">
-      <a style="cursor: pointer; text-decoration: underline;" onclick="HttpGet('me.html')";>Rólam</a>
+      <a style="cursor: pointer; text-decoration: underline;" onclick="HttpGet('tmm.html')" ;>TwitchMobilMenetrendről</a>
     </div>
     <div class="buttons">
-      <a style="cursor: pointer; text-decoration: underline;" onclick="HttpGet('lmm.html')";>Letöltés</a>
+      <a style="cursor: pointer; text-decoration: underline;" onclick="HttpGet('me.html')" ;>Rólam</a>
     </div>
     <div class="buttons">
-      <a style="cursor: pointer; text-decoration: underline;" onclick="HttpGet('faq.html')";>FAQ</a>
+      <a style="cursor: pointer; text-decoration: underline;" onclick="HttpGet('lmm.html')" ;>Letöltés</a>
     </div>
     <div class="buttons">
-      <a style="cursor: pointer; text-decoration: underline;" onclick="HttpGet('changelog')";>Change-Log</a>
+      <a style="cursor: pointer; text-decoration: underline;" onclick="HttpGet('faq.html')" ;>FAQ</a>
+    </div>
+    <div class="buttons">
+      <a style="cursor: pointer; text-decoration: underline;" onclick="HttpGet('changelog')" ;>Change-Log</a>
     </div>
   </div>
-  
+
   <div class="content-holder">
     <div class="content">
-      
+
     </div>
   </div>
 
