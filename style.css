@@ -121,8 +121,11 @@
 .discord_avatar {
   display: flex;
   justify-content: center;
-  width: 128px;
-  background-image: url("avatardiscord.png");
+}
+.discord_serverinfo {
+  display: flex;
+  justify-content: center;
+  
 }
 
 a {
