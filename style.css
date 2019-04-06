@@ -117,8 +117,9 @@
 .discordserver_tab {
   display: flex;
   flex-wrap: wrap;
-  border: 1px solid #0e0c13;
-  border-radius: 5%;
+  border-radius: 5px;
+  border: 1px solid grey;
+  width: fit-content;
 }
 .discord_avatar {
   display: flex;
@@ -134,6 +135,13 @@
 }
 .statusgreen {
   background-color: green;
+  width: 10px;
+  border-radius: 50%;
+  display: inline-block;
+  height: 10px;
+}
+.statusgrey {
+  background-color: grey;
   width: 10px;
   border-radius: 50%;
   display: inline-block;
