@@ -11,7 +11,5 @@ function HttpGet(url) {
     };
     xhttp.open("GET", url, true);
     xhttp.send();
-
-
 }
 
