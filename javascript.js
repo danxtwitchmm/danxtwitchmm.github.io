@@ -7,7 +7,7 @@ function HttpGet(url) {
     xhttp.onreadystatechange = function () {
         if (this.readyState == 4 && this.status == 200) {
             document.getElementsByClassName("content")[0].innerHTML = xhttp.responseText;
-            if(url =="lmm.html") {
+            if((url =="lmm.html")&(url =="faq.html")) {
                 DiscordInfo("https://discordapp.com/api/v6/invite/4YKn62P?with_counts=true");
             }
         }
