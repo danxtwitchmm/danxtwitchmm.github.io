@@ -117,6 +117,8 @@
 .discordserver_tab {
   display: flex;
   flex-wrap: wrap;
+  border: 1px solid #0e0c13;
+  border-radius: 5%;
 }
 .discord_avatar {
   display: flex;
