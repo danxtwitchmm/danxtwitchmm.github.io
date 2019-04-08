@@ -58,7 +58,7 @@
   
   display: flex;
   justify-content: center;
-  
+  background-image: radial-gradient( 1000px 20px at top, Black,  #23272A00);
   
 }
 .content {
@@ -83,9 +83,7 @@
   flex-wrap: wrap;
   background-color: #4b367c;
   background-image: radial-gradient(500% 100% at bottom,#23272A00 0%,#0e0c13 100%);
-  -webkit-box-shadow: 0px 5px 30px 0px rgba(0, 0, 0, 0.32);
-  -moz-box-shadow: 0px 5px 30px 0px rgba(0, 0, 0, 0.32);
-  box-shadow: 0px 5px 30px 0px rgba(0, 0, 0, 0.32);
+  
 }
 
 .twocollum {
