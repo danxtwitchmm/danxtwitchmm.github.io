@@ -180,7 +180,7 @@ a {
   border-radius: 5px 5px 0px 0px;
   background-image: radial-gradient(500% 100% at top,#23272A00 0%,#0e0c13 100%);
 }
-buttons:hover {
+.buttons a:hover {
   
   background-color: #7153b7;
   
