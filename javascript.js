@@ -7,7 +7,7 @@ function HttpGet(url) {
     xhttp.onreadystatechange = function () {
         if (this.readyState == 4 && this.status == 200) {
             document.getElementsByClassName("content")[0].innerHTML = xhttp.responseText;
-            if((url =="lmm.html")|(url =="faq.html")) {
+            if ((url == "lmm.html") | (url == "faq.html")) {
                 DiscordInfo("https://discordapp.com/api/v6/invite/4YKn62P?with_counts=true");
             }
         }
@@ -23,9 +23,8 @@ function DiscordInfo(url) {
         if (this.readyState == 4 && this.status == 200) {
             var data = xhttp.responseText;
             data = JSON.parse(data);
-            
-            document.getElementsByClassName("statustext_online")[0].innerHTML = data.approximate_presence_count+" Elérhető";
-            document.getElementsByClassName("statustext_all")[0].innerHTML = data.approximate_member_count+" Tag";
+            document.getElementsByClassName("statustext_online")[0].innerHTML = data.approximate_presence_count + " Elérhető";
+            document.getElementsByClassName("statustext_all")[0].innerHTML = data.approximate_member_count + " Tag";
         }
     };
     xhttp.open("GET", url, true);

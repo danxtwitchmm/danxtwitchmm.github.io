@@ -187,9 +187,11 @@ margin: 20px;
 a {
 color: white;
 }
+
 .buttons {
 display: flex;
 background-color: #4b367c;
+color: white;
 text-align: center;
 margin: 0px 5px 0px 5px;
 padding: 10px 25px 10px 25px;
