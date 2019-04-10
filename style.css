@@ -1,292 +1,296 @@
 @font-face {
-    font-family: 'Covenant';
-    src: url(data:application/x-font-woff;charset=utf-8;base64,) format('woff');
-    font-weight: normal;
-    font-style: normal;
-  }
+  font-family: 'Covenant';
+  src: url(data:application/x-font-woff;charset=utf-8;base64,) format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
 /*Oldal összetétel*/
 .logobackground {
-  background-image: url("pattern.png");
-  background-repeat: repeat;
+background-image: url("pattern.png");
+background-repeat: repeat;
 }
 .logo {
-  background-image: radial-gradient(500% 100% at top,#23272A00 0%,#0e0c13 100%);
-  text-align: center;
-  margin-bottom: 10px;
+background-image: radial-gradient(500% 100% at top,#23272A00 0%,#0e0c13 100%);
+text-align: center;
+margin-bottom: 10px;
 }
 
 .logotext {
-  color: white;
-  font-size: 38px;
-  -webkit-text-stroke: 1px #4b367c;
-  margin: 20px 0px 20px 0px;
+color: white;
+font-size: 38px;
+-webkit-text-stroke: 1px #4b367c;
+margin: 20px 0px 20px 0px;
 }
 .htext {
-  color: white;
-  font-size: 25px;
-  -webkit-text-stroke: 1px #4b367c;
-  margin: 20px 0px 3px 0px;
+color: white;
+font-size: 25px;
+-webkit-text-stroke: 1px #4b367c;
+margin: 20px 0px 3px 0px;
 }
 
 @media screen and (max-width: 400px) {
-  .logotext {
-    color: white;
-    font-size: 20px;
-    -webkit-text-stroke: 1px #4b367c;
-    
-  }
-  .htext {
+.logotext {
+  color: white;
+  font-size: 20px;
+  -webkit-text-stroke: 1px #4b367c;
+}
+.htext {
+  font-size: 20px;
+}
 
-    font-size: 20px;
-
-  }
 }
 .responsive {
-  height: 200px;
+height: 200px;
 }
 @media screen and (max-width: 500px) {
 .responsive {
-  
-  color: red;
-  height: auto;
-  width: 100%;
-  
+
+color: red;
+height: auto;
+width: 100%;
+
 }
-  }
+.discordserver_tab {
+  font-size: 2.8vw;
+}
+.discordserver_tab img {
+  height: 50px
+}
+
+}
 
 .content-holder {
-  
-  display: flex;
-  justify-content: center;
-  /*background-image: radial-gradient( 1000px 20px at top, Black,  #23272A00);*/
-  
+
+display: flex;
+justify-content: center;
+/*background-image: radial-gradient( 1000px 20px at top, Black,  #23272A00);*/
+
 }
 .content {
-  text-align: justify;
-  width: 60%;
-  margin-top: 20px;
+text-align: justify;
+width: 60%;
+margin-top: 20px;
 }
 
 @media screen and (max-width: 1200px) {
-  .content {
-    text-align: justify;
-    width: 100%;
-    margin: 20px 20px 0px 20px;
-  }
+.content {
+  text-align: justify;
+  width: 100%;
+  margin: 20px 20px 0px 20px;
+}
 }
 
 .menu {
-  display: flex;
-  width: 100%;
-  justify-content: center;
-  
-  flex-wrap: wrap;
-  background-color: #4b367c;
-  background-image: radial-gradient(500% 100% at bottom,#23272A00 0%,#0e0c13 100%);
-  -moz-box-shadow: 0px 10px 25px 1px black;
-  -webkit-box-shadow: 0px 10px 25px 1px black; 
-  box-shadow: 0px 10px 25px 1px black;
+display: flex;
+width: 100%;
+justify-content: center;
+
+flex-wrap: wrap;
+background-color: #4b367c;
+background-image: radial-gradient(500% 100% at bottom,#23272A00 0%,#0e0c13 100%);
+-moz-box-shadow: 0px 10px 25px 1px black;
+-webkit-box-shadow: 0px 10px 25px 1px black; 
+box-shadow: 0px 10px 25px 1px black;
 }
 
 .twocollum {
-  display: flex;
-  flex-wrap: wrap;
+display: flex;
+flex-wrap: wrap;
 }
 
 .twocollum_innerr {
+display: flex;
+justify-content: center;
+width: 100%;
+}
+
+.twocollum_innerl {
+display: flex;
+
+}
+
+@media screen and (min-width: 800px) {
+.twocollum_innerr {
   display: flex;
   justify-content: center;
-  width: 100%;
+  width: 50%;
 }
 
 .twocollum_innerl {
   display: flex;
-  
+  width: 50%;
 }
-
-@media screen and (min-width: 800px) {
-  .twocollum_innerr {
-    display: flex;
-    justify-content: center;
-    width: 50%;
-  }
-  
-  .twocollum_innerl {
-    display: flex;
-    width: 50%;
-  }
 }
 
 .discordserver_tab {
-  display: flex;
-  flex-wrap: wrap;
-  border-radius: 5px;
-  border: 1px solid grey;
-  width: fit-content;
-  justify-content: center;
-  margin-top: 20px;
+display: flex;
+flex-wrap: wrap;
+border-radius: 5px;
+border: 1px solid grey;
+width: fit-content;
+justify-content: center;
+margin-top: 20px;
 }
 .discord_avatar {
-  display: flex;
-  justify-content: center;
-  margin: 10px 0px 10px 10px;
+display: flex;
+justify-content: center;
+margin: 15px 0px 15px 15px;
 }
 .discord_serverinfo {
-  display: flex;
-  justify-content: center;
-  display: block;
-  
+display: flex;
+justify-content: center;
+display: block;
+
 }
 .discord_status {
 margin: 10px;
 }
 .statustext_online {
-  margin-right: 10px;
+margin-right: 10px;
 }
 .discord_joinbutton {
-  width: 100%;
-  background-color: darkolivegreen;
-  vertical-align: middle;
-  font-weight: bold;
+
+background-color: darkolivegreen;
+padding: 34px 15px 0px 15px;
+font-weight: bold;
 }
 .statusgreen {
-  background-color: green;
-  width: 10px;
-  border-radius: 50%;
-  display: inline-block;
-  height: 10px;
+background-color: green;
+width: 10px;
+border-radius: 50%;
+display: inline-block;
+height: 10px;
 }
 .statusgrey {
-  background-color: grey;
-  width: 10px;
-  border-radius: 50%;
-  display: inline-block;
-  height: 10px;
+background-color: grey;
+width: 10px;
+border-radius: 50%;
+display: inline-block;
+height: 10px;
 }
 .discord_servername {
- margin: 20px;
+margin: 20px;
 }
 
 a {
-  color: white;
+color: white;
 }
 .buttons {
-  display: flex;
-  background-color: #4b367c;
-  text-align: center;
-  margin: 0px 5px 0px 5px;
-  padding: 10px 25px 10px 25px;
-  border: 1px solid #0e0c13;
-  border-radius: 5px 5px 0px 0px;
-  background-image: radial-gradient(500% 100% at top,#23272A00 0%,#0e0c13 100%);
+display: flex;
+background-color: #4b367c;
+text-align: center;
+margin: 0px 5px 0px 5px;
+padding: 10px 25px 10px 25px;
+border: 1px solid #0e0c13;
+border-radius: 5px 5px 0px 0px;
+background-image: radial-gradient(500% 100% at top,#23272A00 0%,#0e0c13 100%);
 }
 .buttons:hover {
-  
-  background-color: #8e68e6;
-  
+
+background-color: #8e68e6;
+
 }
 
 @media screen and (max-width: 800px) {
-  .buttons {
-    margin: 10px 5px 0px 5px;
-  }
+.buttons {
+  margin: 10px 5px 0px 5px;
+}
 }
 
 .bottom {
-  text-align: center;
-  margin-top: 100px;
+text-align: center;
+margin-top: 100px;
 
 }
-
 
 
 .bottom img {
-  margin: 10px 0px 10px 0px;
+margin: 10px 0px 10px 0px;
 }
 
 body {
-  font-family:'Roboto', sans-serif; 
-  background: #0e0c13; height:100%; 
-  color: #c3c1c8;
-  margin: 0px 0px 0px 0px;
-  
+font-family:'Roboto', sans-serif; 
+background: #0e0c13; height:100%; 
+color: #c3c1c8;
+margin: 0px 0px 0px 0px;
+
 }
-  /* The Modal (background) */
+/* The Modal (background) */
 
-  .modal {
-    display: none;
-    /* Hidden by default */
-    position: fixed;
-    /* Stay in place */
-    z-index: 1;
-    /* Sit on top */
-    padding-top: 100px;
-    /* Location of the box */
-    left: 0;
-    top: 0;
-    width: 100%;
-    /* Full width */
-    height: 100%;
-    /* Full height */
-    overflow: auto;
-    /* Enable scroll if needed */
-    background-color: rgb(0, 0, 0);
-    /* Fallback color */
-    background-color: rgba(0, 0, 0, 0.4);
-    /* Black w/ opacity */
-  }
+.modal {
+  display: none;
+  /* Hidden by default */
+  position: fixed;
+  /* Stay in place */
+  z-index: 1;
+  /* Sit on top */
+  padding-top: 100px;
+  /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%;
+  /* Full width */
+  height: 100%;
+  /* Full height */
+  overflow: auto;
+  /* Enable scroll if needed */
+  background-color: rgb(0, 0, 0);
+  /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.4);
+  /* Black w/ opacity */
+}
 
-  /* Modal Content */
+/* Modal Content */
 
-  .modal-content {
-    background-color: #17141f;
-    margin: auto;
-    padding: 20px;
-    border: 1px solid #888;
-    width: 80%;
-  }
+.modal-content {
+  background-color: #17141f;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+}
 
-  /* The Close Button */
+/* The Close Button */
 
-  .close {
-    color: #aaaaaa;
-    float: right;
-    font-size: 28px;
-    font-weight: bold;
-  }
+.close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
 
-  .close:hover,
-  .close:focus {
-    color: #000;
-    text-decoration: none;
-    cursor: pointer;
-  }
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
 
-  .cookie {
-    display: none;
-    /* Hidden by default */
-    position: fixed;
-    /* Stay in place */
-    z-index: 1;
-    /* Sit on top */
-    /* Location of the box */
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    /* Full width */
-    /* Full height */
-    overflow: auto;
-    /* Enable scroll if needed */
-    background-color: rgb(0, 0, 0);
-    /* Fallback color */
-    background-color: rgba(0, 0, 0, 0.4);
-    /* Black w/ opacity */
-  }
+.cookie {
+  display: none;
+  /* Hidden by default */
+  position: fixed;
+  /* Stay in place */
+  z-index: 1;
+  /* Sit on top */
+  /* Location of the box */
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  /* Full width */
+  /* Full height */
+  overflow: auto;
+  /* Enable scroll if needed */
+  background-color: rgb(0, 0, 0);
+  /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.4);
+  /* Black w/ opacity */
+}
 
-  /* Modal Content */
+/* Modal Content */
 
-  .modal-cookie {
-    background-color: #2e2b35;
-    margin: auto;
-    padding: 20px;
-  }
+.modal-cookie {
+  background-color: #2e2b35;
+  margin: auto;
+  padding: 20px;
+}
