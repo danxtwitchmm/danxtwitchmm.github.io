@@ -149,10 +149,11 @@ margin: 10px;
 margin-right: 10px;
 }
 .discord_joinbutton {
-
+cursor: pointer;
 background-color: darkolivegreen;
 padding: 34px 15px 0px 15px;
 font-weight: bold;
+
 }
 .statusgreen {
 background-color: green;
@@ -183,6 +184,7 @@ margin: 0px 5px 0px 5px;
 padding: 10px 25px 10px 25px;
 border: 1px solid #0e0c13;
 border-radius: 5px 5px 0px 0px;
+cursor: pointer;
 background-image: radial-gradient(500% 100% at top,#23272A00 0%,#0e0c13 100%);
 }
 .buttons:hover {
