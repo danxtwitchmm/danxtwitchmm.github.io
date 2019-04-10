@@ -131,6 +131,10 @@ width: fit-content;
 justify-content: center;
 margin-top: 20px;
 }
+.discordserver_tab img {
+  border: 1px solid grey;
+  border-radius:50%;
+}
 .discord_avatar {
 display: flex;
 justify-content: center;
@@ -156,6 +160,7 @@ font-weight: bold;
 }
 .discord_joinbutton:hover {
   background-color: #93ba51;
+  color: white;
 }
 .statusgreen {
 background-color: green;
