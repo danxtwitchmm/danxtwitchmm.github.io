@@ -162,6 +162,8 @@ font-weight: bold;
 .discord_joinbutton:hover {
   background-color: #93ba51;
   color: white;
+  transition: 0.2s linear;
+  -webkit-transition: 0.2s linear;
 }
 .statusgreen {
 background-color: green;
@@ -194,6 +196,8 @@ border: 1px solid #0e0c13;
 border-radius: 5px 5px 0px 0px;
 cursor: pointer;
 background-image: radial-gradient(500% 100% at top,#23272A00 0%,#0e0c13 100%);
+transition: 0.2s linear;
+-webkit-transition: 0.2s linear;
 }
 .buttons:hover {
 
