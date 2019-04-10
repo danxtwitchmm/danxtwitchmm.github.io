@@ -158,12 +158,13 @@ cursor: pointer;
 background-color: darkolivegreen;
 padding: 34px 15px 0px 15px;
 font-weight: bold;
+transition: 0.2s linear;
+-webkit-transition: 0.2s linear;
 }
 .discord_joinbutton:hover {
   background-color: #93ba51;
   color: white;
-  transition: 0.2s linear;
-  -webkit-transition: 0.2s linear;
+ 
 }
 .statusgreen {
 background-color: green;
