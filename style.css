@@ -147,9 +147,46 @@ justify-content: center;
 display: block;
 
 }
-.discord_status {
+
+.download_tab {
+  display: flex;
+  flex-wrap: wrap;
+  border-radius: 5px;
+  border: 1px solid grey;
+  width: fit-content;
+  justify-content: center;
+  margin-top: 20px;
+  background-color: #4b367c;
+  }
+  .download_tab img {
+    border: 1px solid grey;
+  }
+  .download_info{
+  display: flex;
+  justify-content: center;
+  display: block;
+  }
+  .download_title {
+    margin: 20px;
+    }
+.download_version {
 margin: 10px;
 }
+.download_button {
+  cursor: pointer;
+  background-color: #4b367c;
+  padding: 34px 15px 0px 15px;
+  font-weight: bold;
+  transition: 0.2s linear;
+  -webkit-transition: 0.2s linear;
+  }
+  .download_button:hover {
+    background-color: #8e68e6;
+    color: white;
+   
+  }
+
+
 .statustext_online {
 margin-right: 10px;
 }
