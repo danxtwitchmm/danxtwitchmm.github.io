@@ -123,14 +123,15 @@ display: flex;
 }
 
 .discordserver_tab {
-display: flex;
-flex-wrap: wrap;
-border-radius: 5px;
-border: 1px solid grey;
-width: fit-content;
-justify-content: center;
-margin-top: 20px;
-background-color: #1a191d
+  display: flex;
+  flex-wrap: wrap;
+  border-radius: 5px;
+  border: 1px solid grey;
+  width: fit-content;
+  justify-content: center;
+  /* margin-top: 20px; */
+  background-color: #1a191d;
+  font-size: 13px;
 }
 .discordserver_tab img {
   border: 1px solid grey;
