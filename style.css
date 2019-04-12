@@ -152,30 +152,33 @@ display: block;
   display: flex;
   flex-wrap: wrap;
   border-radius: 5px;
-  border: 1px solid grey;
+  border: 1px solid #4b367c;
   width: fit-content;
   justify-content: center;
   margin-top: 20px;
-  background-color: #4b367c;
+  background-color: #1b132d;
   }
   .download_tab img {
-    border: 1px solid grey;
+    border: 1px solid #4b367c;
   }
   .download_info{
   display: flex;
   justify-content: center;
   display: block;
   }
-  .download_title {
+  .download_pic {
     margin: 20px;
     }
-.download_version {
-margin: 10px;
+.download_holder {
+  margin: 10px;
+  }
+.download_version{
+  font-size: 10px;
 }
 .download_button {
   cursor: pointer;
   background-color: #4b367c;
-  padding: 34px 15px 0px 15px;
+  padding: 340px 15px 0px 15px;
   font-weight: bold;
   transition: 0.2s linear;
   -webkit-transition: 0.2s linear;
