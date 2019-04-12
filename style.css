@@ -151,6 +151,9 @@ display: block;
   width: 150px;
   height: 76;
 }
+.donate_holder {
+  padding: 10px;
+}
 .download_tab {
   
   border-radius: 5px;
