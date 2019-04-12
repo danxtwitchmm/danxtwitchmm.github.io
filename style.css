@@ -132,6 +132,19 @@ display: flex;
   display: flex;
   
   }
+  
+  @media screen and (min-width: 800px) {
+  .twocollum_innerr_d {
+    display: flex;
+    justify-content: center;
+    width: 50%;
+  }
+  
+  .twocollum_innerl_d {
+    display: flex;
+    width: 50%;
+  }
+  }
 
 .discordserver_tab {
   display: flex;
