@@ -135,6 +135,13 @@ display: flex;
   width:100%;
   }
   
+  .discord_connect_holder {
+    display: block;
+  }
+  .discord_connect {
+    margin-top: 20px;
+  }
+  
   @media screen and (min-width: 800px) {
   .twocollum_innerr_d {
     display: flex;
@@ -154,7 +161,7 @@ display: flex;
   border-radius: 5px;
   border: 1px solid grey;
   justify-content: center;
-  margin-top: 20px;
+  margin-top: 10px;
   background-color: #1a191d;
   height: 92px;
   width: fit-content;
@@ -179,6 +186,7 @@ display: block;
 .donate_button {
   width: 150px;
   height: 76;
+  margin-top: 10px;
 }
 .donate_holder {
   padding: 23px 0px 0px 0px;
