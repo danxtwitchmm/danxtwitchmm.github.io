@@ -188,6 +188,13 @@ display: block;
     color: white;
    
   }
+  .download_pic img {
+
+    color: red;
+    height: auto;
+    width: 100%;
+    
+    }
 
 
 .statustext_online {
