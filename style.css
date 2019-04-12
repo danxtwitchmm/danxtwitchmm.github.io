@@ -147,7 +147,10 @@ justify-content: center;
 display: block;
 
 }
-
+.donate_button {
+  width: 150px;
+  height: 76;
+}
 .download_tab {
   
   border-radius: 5px;
