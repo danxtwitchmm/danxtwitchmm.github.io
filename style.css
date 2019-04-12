@@ -123,14 +123,16 @@ display: flex;
 }
 
 .twocollum_innerr_d {
-  display: flex;
+  display: block;
   justify-content: center;
-  width: 100%;
+  width:100%;
   }
   
   .twocollum_innerl_d {
-  display: flex;
-  
+  display: block;
+  justify-content: center;
+  align-content: center;
+  width:100%;
   }
   
   @media screen and (min-width: 800px) {
@@ -179,10 +181,9 @@ display: block;
   height: 76;
 }
 .donate_holder {
-  padding: 10px;
-    text-align: center;
-    font-size: 13;
-    width: 300;
+  padding: 23px 0px 0px 0px;
+  text-align: center;
+  font-size: 13px;
 }
 .download_tab {
   
