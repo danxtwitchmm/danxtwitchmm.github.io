@@ -184,6 +184,16 @@ display: block;
   margin-top: 20px;
   cursor: pointer;
 }
+
+.donate_button img {
+	opacity: 1;
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.donate_button:hover img {
+	opacity: .5;
+}
+
 .donate_holder {
   text-align: center;
   font-size: 13px;
