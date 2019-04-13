@@ -140,6 +140,7 @@ display: flex;
   }
   .discord_connect {
     margin-top: 20px;
+    font-size: 13px;
   }
   
   @media screen and (min-width: 800px) {
@@ -186,10 +187,10 @@ display: block;
 .donate_button {
   width: 150px;
   height: 76;
-  margin-top: 10px;
+  margin-top: 20px;
 }
 .donate_holder {
-  padding: 23px 0px 0px 0px;
+  padding: 37px 0px 0px 0px;
   text-align: center;
   font-size: 13px;
 }
