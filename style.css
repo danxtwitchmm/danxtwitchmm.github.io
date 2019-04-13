@@ -83,6 +83,12 @@ display: flex;
 flex-wrap: wrap;
 }
 
+.twocollum_d {
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  }
+
 .twocollum_innerr {
 display: flex;
 justify-content: center;
