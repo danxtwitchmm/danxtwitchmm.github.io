@@ -81,6 +81,7 @@ box-shadow: 0px 10px 25px 1px black;
 .twocollum {
 display: flex;
 flex-wrap: wrap;
+margin-top:20px;
 }
 
 .twocollum_d {
