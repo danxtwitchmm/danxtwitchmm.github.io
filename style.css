@@ -185,13 +185,13 @@ display: block;
   cursor: pointer;
 }
 
-.donate_button img {
-	opacity: 1;
-	-webkit-transition: .3s ease-in-out;
-	transition: .3s ease-in-out;
+.donate_button  {
+	opacity: 0.6;
+	-webkit-transition: .2s ease-in-out;
+	transition: .2s ease-in-out;
 }
-.donate_button:hover img {
-	opacity: .5;
+.donate_button:hover {
+	opacity: 1;
 }
 
 .donate_holder {
