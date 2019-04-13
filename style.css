@@ -88,7 +88,9 @@ flex-wrap: wrap;
   display: flex;
   flex-wrap: wrap;
   }
-
+.content_block {
+  display:block;
+}
 .twocollum_innerr {
 display: flex;
 justify-content: center;
