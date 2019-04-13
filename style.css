@@ -173,6 +173,7 @@ display: block;
   width: 150px;
   height: 76;
   margin-top: 20px;
+  cursor: pointer;
 }
 .donate_holder {
   text-align: center;
