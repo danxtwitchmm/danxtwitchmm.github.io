@@ -328,7 +328,9 @@ background-color: #8e68e6;
 .bottom {
 text-align: center;
 margin-top: 100px;
-
+background-image: radial-gradient(500% 100% at top,#23272A00 0%,#000000 100%);
+position: sticky;
+top: 100vw;
 }
 
 
