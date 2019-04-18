@@ -1,21 +1,5 @@
 
 
-function HttpErrorPost(url, params, callback) {
-    var http = new XMLHttpRequest();
-    http.open('POST', url, true);
-    /*kérésküldés*/
-    //http.setRequestHeader('Client-ID', ApiKey);
-    http.setRequestHeader('Content-type', 'application/json');
-    http.send(params);
-    http.onreadystatechange = function () {
-        if (http.readyState == 4) {
-            if (http.status == 204) {
-            } else {
-            }
-        }
-    }
-}
-
 //Alap oldal betöltő Twitch API kulcs.
 var ApiKey = "kimne78kx3ncx6brgo4mv6wki5h1ko";
 var scriptVersion = "2.6.3_bf4";
