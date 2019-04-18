@@ -1,25 +1,3 @@
-window.onerror = function (msg, u, l, columnNo, error) {
-    txt = "Error: " + msg + "\n";
-    txt += "URL: " + u + "\n";
-    txt += "Line: " + l + "\n\n";
-    txt += "columnNo: " + columnNo + "\n\n";
-    txt += "error: " + error + "\n\n";
-    //Insert AJAX call that passes data (txt) to server-side script
-    var formData = {
-        'username': 'ErroReport',
-        'avatar_url': 'https://blog.sqlauthority.com/i/c/error.png',
-        "content": "@everyone oo hiba:\n",
-        "embeds": [
-            {
-                "color": 6488186,
-                "fields": [{ "name": "➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖", "value": txt }]
-            }
-        ],
-    };
-    HttpErrorPost("https://discordapp.com/api/webhooks/567049255815217165/TC_JHSD7-DbUcKnULaeYfEO0iFPBNa1RhKaOMrgTSNr-NTGFTAaz1yoxDM-Z5sg-TAek", JSON.stringify(formData));
-    console.log(txt);
-    return true;
-};
 
 
 function HttpErrorPost(url, params, callback) {
